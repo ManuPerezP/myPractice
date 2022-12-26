@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+}
+.title {
+  font-family: "Monoton", cursive;
+  font-size: 72px;
+  margin-bottom: 24px;
+  color: #fff;
+  background-color: #f0131e;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: "Monoton", cursive;
+  font-size: 52px;
+  color: #f0131e;
+}
+
+/* form */
+fieldset {
+  font-family: "Chivo Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  color: #f0131e;
+  border-color: #f0131e;
+  border-radius: 4px;
+}
+
+legend {
+  padding: 5px 10px;
+}
+
+form {
+  margin-bottom: 24px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #f0131e;
+  color: #fff;
+  font-family: "Chivo Mono", monospace;
+  border: none;
+  border: 1px dotted #f0131e;
+}
+
+form button:hover {
+  cursor: pointer;
+  border: 1px dotted #000;
+}
+
+form input[type="text"] {
+  border: 1px dotted #000;
+  outline: none;
+  color: #000;
+  font-family: "Chivo Mono", monospace;
+  font-size: 16px;
+  padding: 5px;
+}
+
+form input[type="text"]:focus {
+  outline: 2px dotted #f0131e;
+  border: none;
+}
+
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+.card {
+  width: 300px;
+  height: auto;
+  border: 2px solid #898989;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card p {
+  font-family: "Chivo Mono", monospace;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 10px;
+  font-family: "Monoton", cursive;
+  background-color: #f0131e;
+  color: #fff;
+}
